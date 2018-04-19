@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91962240244F8458EB1B3853 /* libPods-FMDBDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BBFD51687F4E6C214D8DD3 /* libPods-FMDBDemo.a */; };
 		B54890122088343E00F9ED67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B54890112088343E00F9ED67 /* AppDelegate.m */; };
 		B54890152088343E00F9ED67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54890142088343E00F9ED67 /* ViewController.m */; };
 		B54890182088343E00F9ED67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B54890162088343E00F9ED67 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		B54890202088343F00F9ED67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B548901F2088343F00F9ED67 /* main.m */; };
 		B548902A2088343F00F9ED67 /* FMDBDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B54890292088343F00F9ED67 /* FMDBDemoTests.m */; };
 		B54890352088343F00F9ED67 /* FMDBDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B54890342088343F00F9ED67 /* FMDBDemoUITests.m */; };
+		B548904520883D3900F9ED67 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = B548904420883D3900F9ED67 /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		46E8BD3F8CFFC8C792344086 /* Pods-FMDBDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMDBDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FMDBDemo/Pods-FMDBDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7B2746F2A2D8573E2E051CB3 /* Pods-FMDBDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMDBDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FMDBDemo/Pods-FMDBDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B548900D2088343E00F9ED67 /* FMDBDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMDBDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54890102088343E00F9ED67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B54890112088343E00F9ED67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +55,9 @@
 		B54890302088343F00F9ED67 /* FMDBDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMDBDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54890342088343F00F9ED67 /* FMDBDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDBDemoUITests.m; sourceTree = "<group>"; };
 		B54890362088343F00F9ED67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B548904320883D3900F9ED67 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		B548904420883D3900F9ED67 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		C4BBFD51687F4E6C214D8DD3 /* libPods-FMDBDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FMDBDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91962240244F8458EB1B3853 /* libPods-FMDBDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D414E2D291A0222DAF163D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46E8BD3F8CFFC8C792344086 /* Pods-FMDBDemo.debug.xcconfig */,
+				7B2746F2A2D8573E2E051CB3 /* Pods-FMDBDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2B0F9D8286A42A71782B3A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4BBFD51687F4E6C214D8DD3 /* libPods-FMDBDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B54890042088343E00F9ED67 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				B54890282088343F00F9ED67 /* FMDBDemoTests */,
 				B54890332088343F00F9ED67 /* FMDBDemoUITests */,
 				B548900E2088343E00F9ED67 /* Products */,
+				4D414E2D291A0222DAF163D1 /* Pods */,
+				A2B0F9D8286A42A71782B3A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +128,7 @@
 		B548900F2088343E00F9ED67 /* FMDBDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B548904220883D1B00F9ED67 /* Model */,
 				B54890102088343E00F9ED67 /* AppDelegate.h */,
 				B54890112088343E00F9ED67 /* AppDelegate.m */,
 				B54890132088343E00F9ED67 /* ViewController.h */,
@@ -132,6 +160,15 @@
 			path = FMDBDemoUITests;
 			sourceTree = "<group>";
 		};
+		B548904220883D1B00F9ED67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B548904320883D3900F9ED67 /* Student.h */,
+				B548904420883D3900F9ED67 /* Student.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B54890392088343F00F9ED67 /* Build configuration list for PBXNativeTarget "FMDBDemo" */;
 			buildPhases = (
+				AAA0F67D06AEA1742AB2676D /* [CP] Check Pods Manifest.lock */,
 				B54890092088343E00F9ED67 /* Sources */,
 				B548900A2088343E00F9ED67 /* Frameworks */,
 				B548900B2088343E00F9ED67 /* Resources */,
@@ -257,6 +295,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AAA0F67D06AEA1742AB2676D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FMDBDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B54890092088343E00F9ED67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -265,6 +324,7 @@
 				B54890152088343E00F9ED67 /* ViewController.m in Sources */,
 				B54890202088343F00F9ED67 /* main.m in Sources */,
 				B54890122088343E00F9ED67 /* AppDelegate.m in Sources */,
+				B548904520883D3900F9ED67 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +491,7 @@
 		};
 		B548903A2088343F00F9ED67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46E8BD3F8CFFC8C792344086 /* Pods-FMDBDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +509,7 @@
 		};
 		B548903B2088343F00F9ED67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B2746F2A2D8573E2E051CB3 /* Pods-FMDBDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
